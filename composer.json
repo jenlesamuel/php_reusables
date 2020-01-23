@@ -1,0 +1,20 @@
+{
+    "name": "jenlesamuel/reusables",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Jenle",
+            "email": "jenlesamuel@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reusables\\": "src/"
+        }
+    }
+}
